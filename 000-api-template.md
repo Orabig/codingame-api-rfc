@@ -2,7 +2,7 @@
   - API Name: *(Name of the API)*
   - Owner: *(CG login)*
   - Type: *(Reversed | Request)*
-  - Status: *(Pending | Confirmed | Deprecated)*
+  - Status: *(Pending | Confirmed | Deprecated | Broken)*
   
 
 ## Summary
