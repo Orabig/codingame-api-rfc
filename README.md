@@ -22,7 +22,7 @@ Name                        | Type     | Status  | Output size (approx.) |
 ### Key ###
 
 Column | Value | Description
---|--|--
+-------|-------|------------
 Type | Reversed | This API has been reverse-engineered from the codingame website
 Type | Request | This API is a request from the users to the codingame team. It's as if we said "please, please, please do it"
 Status | Pending | Waiting for codingame confirmation
