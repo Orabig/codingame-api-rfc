@@ -1,5 +1,5 @@
 # Meta
-  - API Name: getChallengeLeaderboard
+  - API Name: findAllByTestSessionHandle
   - Owner: Magus
   - Type: Reversed
   - Status: Broken
@@ -7,6 +7,8 @@
 
 ## Summary
 Get the last games of a player
+
+**Note :** This API has been described by Magus in [this thread](https://www.codingame.com/forum/t/public-api-for-statistics-or-other-useful-things/1247), but I couldn't make it work for now.
 
 ## Syntax
 __input :__

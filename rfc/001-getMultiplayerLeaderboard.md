@@ -1,5 +1,5 @@
 # Meta
-  - API Name: getChallengeLeaderboard
+  - API Name: getMultiplayerLeaderboard
   - Owner: Magus
   - Type: Reversed
   - Status: Pending

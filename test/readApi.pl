@@ -30,8 +30,8 @@ foreach (@inputFiles) {
 	open IN,$urlFile or print "Error : could not open '$urlFile'" and next;
 	my $url = <IN>;chomp($url);
 	close IN;
-	
-	my $cmdLine = "curl -X POST -d '$input' $url";
+ 
+	my $cmdLine = "curl -s -X POST -d '$input' $url";
 	print "> $cmdLine";
 	
 	my $output=qx!$cmdLine!;
@@ -40,7 +40,7 @@ foreach (@inputFiles) {
 	close OUT;
 	my $size = -s $outputFile;
 
-	print " ($size written to $outputFile)";
+	print "  ($size written to $outputFile)";
 }
 
 print "\n(the end)";
