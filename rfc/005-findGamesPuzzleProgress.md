@@ -11,7 +11,6 @@ Get the list of puzzle names and meta-informations
 **Note :** This API is only working from the browser, because it needs a valid connection cookie.
 
 ## Syntax
-*Describe here the URL and parameters. For example :*
 __input :__
 ```
 POST https://www.codingame.com/services/PuzzleRemoteService/findGamesPuzzleProgress

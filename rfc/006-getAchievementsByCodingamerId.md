@@ -9,7 +9,7 @@
 Request the achievements of a player
 
 ## Syntax
-*Describe here the URL and parameters. For example :*
+
 __input :__
 ```
 POST https://www.codingame.com/services/AchievementRemoteService/findByCodingamerId

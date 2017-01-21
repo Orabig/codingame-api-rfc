@@ -12,7 +12,7 @@ Request allowing to request a codingamer by name (pseudo). Very useful to get th
 __input :__
 ```
 POST https://www.codingame.com/services/LeaderboardsRemoteService/getGlobalLeaderboard
-body : [**par1**,{"keyword":**pseudo**},"",**par2**,"global"]
+body : [par1,{"keyword":pseudo},"",par2,"global"]
 ```
   - **par1**: (unidentified : needs more information) Integer, should be '1'
   - **pseudo**: the requested pseudo

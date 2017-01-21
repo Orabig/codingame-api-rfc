@@ -10,6 +10,7 @@ Request for an optimization game (code golf) game leaderboard
 **Note :** 
  - This is the same as a multiplayer game, but possible id are just differents (and the returned JSON structure is different too)
  - This API has been described by Magus in [this thread](https://www.codingame.com/forum/t/public-api-for-statistics-or-other-useful-things/1247), but I couldn't make it work for now.
+ 
 ## Syntax
 __input :__
 ```
