@@ -11,7 +11,7 @@ Everyone is welcome to help improve the APIs definitions or add new one. I'll be
 Name                        | Type     | Status  | Output size (approx.) |
 ----------------------------|----------|---------|-----------------------|
 [001-getMultiplayerLeaderboard](https://github.com/Orabig/codingame-api-rfc/blob/master/rfc/001-getMultiplayerLeaderboard.md) | Reversed | Pending | 590 kb |
-[002-getOptimLeaderboard](https://github.com/Orabig/codingame-api-rfc/blob/master/rfc/002-getOptimLeaderboard.md) | Reversed | Broken | ? |
+~~002-getOptimLeaderboard~~ | ~~Reversed~~ | ~~Broken~~ | |
 [003-findAllByTestSessionHandle](https://github.com/Orabig/codingame-api-rfc/blob/master/rfc/003-findAllByTestSessionHandle.md) | Reversed | Broken | ? |
 [004-findAvailableProgrammingLanguages](https://github.com/Orabig/codingame-api-rfc/blob/master/rfc/004-findAvailableProgrammingLanguages.md) | Reversed | Pending | 1.5 kb |
 [005-findGamesPuzzleProgress](https://github.com/Orabig/codingame-api-rfc/blob/master/rfc/005-findGamesPuzzleProgress.md) | Reversed | Unusable | 190 kb |
@@ -29,3 +29,4 @@ Status | Pending | Waiting for codingame confirmation
 Status | Confirmed | Codingame team has confirmed that it can be used as a long-term solution 
 Status | Broken | Has been know to work at one time, but can't be reproduced for now or is not available anymore
 Status | Unusable | Can't be used outside of the browser (because it needs private information/connection cookie)
+
