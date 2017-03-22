@@ -3,14 +3,23 @@
 use strict;
 $\=$/;
 
+my $arg1=$ARGV[0];
+
 my @inputFiles=glob('./cases/*.input');
 
+print "Processing API $arg1" if $arg1;
+
 foreach (@inputFiles) {
-	print "\n> Processing '$_' :";
-	if (!/\.test-\d+\.input$/) {
-		print "Error : Bad input filename format (should end with .test-xxx.input) : $_ (skipping)";
+	if (!m!/(\d+)[^/]+\.test-(\d+)\.input$!) {
+		print "Error : Bad input filename format (should be nnn-*.test-ttt.input) : $_ (skipping)";
 		next;
 	}
+	my $apiNum = $1;
+	my $testNum = $2;
+
+	next if $arg1 && $arg1!=$apiNum;
+
+	print "\n> Processing '$_' :";
 	my $inputFile = $_;
 	
 	s/input$/output/;
@@ -44,13 +53,3 @@ foreach (@inputFiles) {
 }
 
 print "\n(the end)";
-
-__DATA__
-
-echo curl -X POST -d `cat cases/001-getChallengeLeaderboard-multi.test-01.input` `cat cases/001-getChallengeLeaderboard-multi.url`
-curl -X POST -d `cat cases/001-getChallengeLeaderboard-multi.test-01.input` `cat cases/001-getChallengeLeaderboard-multi.url` > cases/001-getChallengeLeaderboard-multi.test-01.output
-echo curl -X POST -d `cat cases/002-getChallengeLeaderboard-optim.test-01.input` `cat cases/002-getChallengeLeaderboard-optim.url`
-curl -X POST -d `cat cases/002-getChallengeLeaderboard-optim.test-01.input` `cat cases/002-getChallengeLeaderboard-optim.url` > cases/002-getChallengeLeaderboard-optim.test-01.output
-echo curl -X POST -d `cat cases/003-findAllByTestSessionHandle.test-01.input` `cat cases/003-findAllByTestSessionHandle.url`
-curl -X POST -d `cat cases/003-findAllByTestSessionHandle.test-01.input` `cat cases/003-findAllByTestSessionHandle.url` > cases/003-findAllByTestSessionHandle.test-01.output
-
