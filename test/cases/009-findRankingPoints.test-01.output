@@ -1,0 +1,20 @@
+{
+    "success": {
+        "codingamerId": 1733593,
+        "globalPointsRankGlobal": 72,
+        "contestPointsRankGlobal": 147,
+        "achievementPointsRankGlobal": 61,
+        "codegolfPointsRankGlobal": 579,
+        "optimPointsRankGlobal": 1308,
+        "multiTrainingPointsRankGlobal": 65,
+        "globalPointsRankCountry": 1,
+        "contestPointsRankCountry": 1,
+        "achievementPointsRankCountry": 1,
+        "codegolfPointsRankCountry": 1,
+        "optimPointsRankCountry": 5,
+        "multiTrainingPointsRankCountry": 1,
+        "countryId": "TW",
+        "totalCodingamerGlobal": 1142159,
+        "totalCodingamerCountry": 8784
+    }
+}
