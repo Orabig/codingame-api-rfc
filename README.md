@@ -10,14 +10,19 @@ Everyone is welcome to help improve the APIs definitions or add new one. I'll be
 
 Name                        | Type     | Status  | Output size (approx.) |
 ----------------------------|----------|---------|-----------------------|
-[001-getMultiplayerLeaderboard](https://github.com/Orabig/codingame-api-rfc/blob/master/rfc/001-getMultiplayerLeaderboard.md) | Reversed | Pending | 590 kb |
+[001-getMultiplayerLeaderboard](rfc/001-getMultiplayerLeaderboard.md) | Reversed | Pending | 590 kb |
 ~~002-getOptimLeaderboard~~ | ~~Reversed~~ | ~~Broken~~ | |
-[003-findAllByTestSessionHandle](https://github.com/Orabig/codingame-api-rfc/blob/master/rfc/003-findAllByTestSessionHandle.md) | Reversed | Broken | ? |
-[004-findAvailableProgrammingLanguages](https://github.com/Orabig/codingame-api-rfc/blob/master/rfc/004-findAvailableProgrammingLanguages.md) | Reversed | Pending | 1.5 kb |
-[005-findGamesPuzzleProgress](https://github.com/Orabig/codingame-api-rfc/blob/master/rfc/005-findGamesPuzzleProgress.md) | Reversed | Unusable | 190 kb |
-[006-getAchievementsByCodingamerId](https://github.com/Orabig/codingame-api-rfc/blob/master/rfc/006-getAchievementsByCodingamerId.md) | Reversed | Pending | 80 kb |
-[007-getPuzzleLeaderboard](https://github.com/Orabig/codingame-api-rfc/blob/master/rfc/007-getPuzzleLeaderboard.md) | Reversed | Pending | 3.3 Mb |
-[008-getCodingamerByName](https://github.com/Orabig/codingame-api-rfc/blob/master/rfc/008-getCodingamerByName.md) | Reversed | Pending | 500 b |
+[003-findAllByTestSessionHandle](rfc/003-findAllByTestSessionHandle.md) | Reversed | Broken | ? |
+[004-findAvailableProgrammingLanguages](rfc/004-findAvailableProgrammingLanguages.md) | Reversed | Pending | 1.5 kb |
+[005-findGamesPuzzleProgress](rfc/005-findGamesPuzzleProgress.md) | Reversed | Unusable | 190 kb |
+[006-getAchievementsByCodingamerId](rfc/006-getAchievementsByCodingamerId.md) | Reversed | Pending | 80 kb |
+[007-getPuzzleLeaderboard](rfc/007-getPuzzleLeaderboard.md) | Reversed | Pending | 3.3 Mb |
+[008-getCodingamerByName](rfc/008-getCodingamerByName.md) | Reversed | Pending | 500 b |
+[009-findRankingPoints](rfc/009-findRankingPoints.md) | Reversed | Pending | 4 kb |
+[010-findByCodingamerId](rfc/010-findByCodingamerId.md) | Reversed | Pending | 1 Mb |
+[011-findCodingamePointsStatsByHandle](rfc/011-findCodingamePointsStatsByHandle.md) | Reversed | Pending | 1 Mb |
+[012-findBestByCodingamerId](rfc/012-findBestByCodingamerId.md) | Reversed | Pending | 1 kb ~ 1 Mb |
+[013-getMyConsoleInformation](rfc/013-getMyConsoleInformation.md) | Reversed | Pending | 500 kb |
 
 ### Key ###
 

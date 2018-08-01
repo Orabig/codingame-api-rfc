@@ -1,0 +1,163 @@
+# Meta
+  - API Name: getMyConsoleInformation
+  - Owner: Wei-1
+  - Type: Reversed
+  - Status: Pending
+
+## Summary
+
+Request codingame server with codingamer id (ex: 1733593)
+
+The server will return the contest results of the player.
+
+## Syntax
+
+__input :__
+
+```
+POST https://www.codingame.com/services/CodinGamerRemoteService/getMyConsoleInformation
+body : [1733593]
+```
+
+ - **par1**: codingamer id - only one parameter is allowed
+
+__output :__
+
+```json
+{
+    "success": {
+        "challenges": [
+            {
+                "challengeId": 0,
+                "userId": 0,
+                "title": "Legends of Code and Magic (M)",
+                "date": 1532707200000,
+                "lateTimeMax": 2419200,
+                "publicId": "legends-of-code-and-magic-marathon",
+                "score": 0,
+                "ranking": 112,
+                "total": 1475,
+                "beta": false,
+                "privateChallenge": false
+            },
+            {
+                "challengeId": 0,
+                "userId": 0,
+                "title": "Legends of Code and Magic (S)",
+                "date": 1532534400000,
+                "lateTimeMax": 14400,
+                "publicId": "legends-of-code-and-magic",
+                "score": 0,
+                "ranking": 190,
+                "total": 742,
+                "beta": false,
+                "privateChallenge": false
+            },
+            {
+                "challengeId": 0,
+                "userId": 0,
+                "title": "Code of Kutulu",
+                "date": 1529078400000,
+                "lateTimeMax": 835200,
+                "publicId": "code-of-kutulu",
+                "score": 0,
+                "total": 0,
+                "beta": false,
+                "privateChallenge": false
+            },
+            {
+                "challengeId": 0,
+                "userId": 0,
+                "title": "Code Royale",
+                "date": 1524240000000,
+                "lateTimeMax": 835200,
+                "publicId": "code-royale",
+                "score": 0,
+                "ranking": 1809,
+                "total": 2120,
+                "beta": false,
+                "privateChallenge": false
+            },
+            {
+                "challengeId": 0,
+                "userId": 0,
+                "title": "Botters of the Galaxy",
+                "date": 1520010000000,
+                "lateTimeMax": 0,
+                "publicId": "botters-of-the-galaxy",
+                "score": 0,
+                "ranking": 510,
+                "total": 1713,
+                "beta": false,
+                "privateChallenge": false
+            },
+            {
+                "challengeId": 0,
+                "userId": 0,
+                "title": "Mean Max",
+                "date": 1510938000000,
+                "lateTimeMax": 316800,
+                "publicId": "mean-max",
+                "score": 0,
+                "ranking": 98,
+                "total": 2512,
+                "beta": false,
+                "privateChallenge": false
+            },
+            {
+                "challengeId": 0,
+                "userId": 0,
+                "title": "Wondev Woman",
+                "date": 1498233600000,
+                "lateTimeMax": 0,
+                "publicId": "wondev-woman",
+                "score": 0,
+                "ranking": 76,
+                "total": 2299,
+                "beta": false,
+                "privateChallenge": false
+            },
+            {
+                "challengeId": 0,
+                "userId": 0,
+                "title": "Code4Life",
+                "date": 1494604800000,
+                "lateTimeMax": 0,
+                "publicId": "code4life",
+                "score": 0,
+                "ranking": 216,
+                "total": 2366,
+                "beta": false,
+                "privateChallenge": false
+            },
+            {
+                "challengeId": 0,
+                "userId": 0,
+                "title": "Coders of the Caribbean",
+                "date": 1492185600000,
+                "lateTimeMax": 0,
+                "publicId": "coders-of-the-caribbean",
+                "score": 0,
+                "ranking": 305,
+                "total": 3623,
+                "beta": false,
+                "privateChallenge": false
+            },
+            {
+                "challengeId": 0,
+                "userId": 0,
+                "title": "Ghost in the Cell",
+                "date": 1488042000000,
+                "lateTimeMax": 0,
+                "publicId": "ghost-in-the-cell",
+                "score": 0,
+                "ranking": 45,
+                "total": 3507,
+                "beta": false,
+                "privateChallenge": false
+            }
+        ]
+    }
+}
+```
+
